@@ -1,0 +1,112 @@
+html,body{
+margin:0;
+padding:0;
+background: url("../images/logo.jpg")no-repeat;
+}
+
+.container{
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  min-height: 80px;
+  text-align: center;
+
+}
+
+.header h2{
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.menu{
+  text-align: center;
+  background-color:rgba(255, 255, 255,0.7);
+}
+
+.nav{
+  list-style: none;
+  margin-bottom: 50px;
+  padding:0;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.nav a{
+  text-decoration: none;
+  margin: 0px 20px;
+  color:#353839;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav a:hover{
+  background-color: #1a8cff;
+  color: white;
+  padding: 0 8px;
+  transition: width 2s, height 4s;
+  -webkit-transition: width 2s, height 4s;
+}
+
+.bio{
+  margin: 40px;
+}
+
+.booth{
+  width: 40%;
+  float:left;
+}
+
+.booth img{
+  width: 330px;
+  padding: 0 60px 60px 60px;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.info-box{
+  padding-top: 40px;
+}
+
+.info-box p{
+  font-size: 14px;
+}
+
+.footer h2{
+  font-family: 'Amatic SC', sans-serif;;
+  font-size:45px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+@media (max-width:1080px) {
+  .portfolio{
+    max-width: 700px;
+  }
+}
+
+@media (max-width:730px){
+  .portfolio{
+    max-width: 330px;
+  }
+}
+
+
+@media (max-width:1080px){
+  .info-box p{
+    clear: both;
+  }
+}
